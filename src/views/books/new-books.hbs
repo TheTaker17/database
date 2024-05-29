@@ -1,0 +1,55 @@
+{{#each errors}}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        {{text}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+{{/each}}
+
+<h1 style="text-align: center;">Añadir un nuevo Libro - {{categoria}}</h1>
+
+<br>
+<div class="container-fluid">
+    <div class="container-xl">
+        <form action="/{{categoria}}/new-book" method="POST">
+            <div class="form-group">
+                <div class="form-floating">
+                    <textarea class="form-control" name="nombre" id="nombre"></textarea>
+                    <label for="nombre">Nombre del Libro</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="text" class="form-control" name="sinopsis" >
+                    <label for="sinopsis">Sinopsis</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="text" class="form-control" name="autor" >
+                    <label for="autor">Autor del Libro</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="number" class="form-control" name="paginas" >
+                    <label for="number">Paginas del Libro</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="number" class="form-control" name="año" >
+                    <label for="año">Año del Libro</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="text" class="form-control" name="editorial" >
+                    <label for="editorial">Editorial del Libro</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="number" class="form-control" name="cantidad" >
+                    <label for="cantidad">Cantidad de Libros</label>
+                </div>
+            </div> 
+            <br>
+            <button type="submit" class="btn btn-warning">Guardar</button>
+            <a class="btn btn-warning" href="/{{categoria}}" role="button">Cancelar</a>
+        </form>
+    </div>
+</div>

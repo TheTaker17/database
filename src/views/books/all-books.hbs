@@ -1,0 +1,64 @@
+<div class="container-fluid text-center">
+    
+    <a class="btn btn-warning" href="/{{categoria}}/new" role="button">Añadir Libro A Esta Categoria</a>
+    <a class="btn btn-warning" href="/categories" role="button">Volver a Categorias</a>
+    <br><br>
+    <div class="row">
+        
+        {{#each libros}}
+        <div class="col mx-4 mt-4">
+            <div class="card" style="width: 20rem; background-color:#fde6b4;">
+                <div class="card-body">
+                    <h5 class="card-subtitle">{{Nombre_Libro}}</h5>
+                    <br>
+                    <h5 class="card-subtitle">{{Autor}}</h5>
+                    <br>
+                    <p class="card-text sinopsis">{{Sinopsis}}</p>
+                    <p class="card-text">{{Paginas}}</p>
+                    <p class="card-text">{{Año}}</p>
+                    <p class="card-text">{{Editorial}}</p>
+                    <p class="card-text">{{Cantidad}}</p>
+                    <a href="/{{../categoria}}/edit/{{_id}}" class="justify-content-between align-items-center" style="color: black;">
+                        <i class="fa-solid fa-pen-to-square">&nbsp; Editar</i>
+                    </a>
+                    <form action="/{{../categoria}}/delete/{{_id}}?_method=DELETE" method="POST">
+                        <input type="hidden" name="_method" value="DELETE">
+                        <button class="btn btn-transparent" type="submit">
+                            <i class="fa-solid fa-trash"></i>&nbsp; ELIMINAR
+                        </button>
+                    </form>                                 
+                </div>
+            </div>
+        </div>
+        
+        {{else}}
+        <div class="card text-center" style="background-color:#fde6b4;">
+            <div class="card-header" style="background-color:#fde6b4;">
+                <h3>Ups!</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">No hay nada aquí!</h5>
+                <p class="card-text">Por favor, inserta un nuevo libro</p>
+                <a class="btn btn-warning gap-2" href="/{{categoria}}/new" role="button">Añadir Libro</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+<style>
+    /* public/css/all-books.css */
+
+    .card {
+        height: 600px; /* Ajusta según sea necesario */
+    }
+
+    .sinopsis {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* Número de líneas que deseas mostrar */
+        -webkit-box-orient: vertical;
+        height: 150px; /* Ajusta según sea necesario */
+    }
+</style>

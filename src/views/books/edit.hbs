@@ -1,0 +1,43 @@
+<div class="card mx-auto" style="width: 25rem; ; ">
+  <div class="card-body">
+    <h5 class="card-title">Editor de Libros</h5>
+    <form action="/{{categoria}}/edit/{{editb._id}}?_method=PUT" method="POST">
+    
+    <div class="form-group">
+        <input type="text" name="nombre" class="form-control" placeholder="Nombre Libro" value="{{editb.Nombre_Libro}}">
+    </div>
+    <br>
+    <div class="form-group">
+        <textarea name="sinopsis" class="form-control" placeholder="Sinopsis">{{editb.Sinopsis}}</textarea>
+    </div>
+    <br>
+    <div class="form-group">
+        <textarea name="autor" class="form-control" placeholder="Autor">{{editb.Autor}}</textarea>
+    </div>
+    <br>
+    <div class="form-group">
+        <input name="paginas" class="form-control" type="number" value="{{editb.Paginas}}" placeholder="Paginas"></input>
+    </div>
+    <br>
+    <div class="form-group">
+        <input name="año" class="form-control" type="number" value="{{editb.Año}}" placeholder="Año"></input>
+    </div>
+    <br>
+    <div class="form-group">
+        <textarea name="editorial" class="form-control" placeholder="Editorial">{{editb.Editorial}}</textarea>
+    </div>
+    <br>
+    <div class="form-group">
+        <input name="cantidad" class="form-control" type="number" value="{{editb.Cantidad}}" placeholder="Cantidad"></input>
+    </div>
+    <br>
+    <div class="form-group">
+        <button class="btn btn-warning" type="submit"> Guardar </button> 
+        <a class="btn btn-warning" href="/{{categoria}}" role="button">Cancelar</a>
+        </form>
+    </div>
+    
+    </form>
+    
+  </div>
+</div>

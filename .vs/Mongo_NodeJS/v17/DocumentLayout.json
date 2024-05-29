@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\routes\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\views\\about.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\about.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\views\\index.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\views\\index.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\database.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\database.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\routes\\index.js",
+              "RelativeDocumentMoniker": "src\\routes\\index.js",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\routes\\index.js",
+              "RelativeToolTip": "src\\routes\\index.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-19T18:15:28.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.hbs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\views\\index.hbs",
+              "RelativeDocumentMoniker": "src\\views\\index.hbs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\views\\index.hbs",
+              "RelativeToolTip": "src\\views\\index.hbs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T18:15:11.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "about.hbs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\views\\about.hbs",
+              "RelativeDocumentMoniker": "src\\views\\about.hbs",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\views\\about.hbs",
+              "RelativeToolTip": "src\\views\\about.hbs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T18:14:55.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "database.js",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\database.js",
+              "RelativeDocumentMoniker": "src\\database.js",
+              "ToolTip": "C:\\Users\\Santiago\\Downloads\\Mongo_NodeJS\\src\\database.js",
+              "RelativeToolTip": "src\\database.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-17T22:31:50.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
